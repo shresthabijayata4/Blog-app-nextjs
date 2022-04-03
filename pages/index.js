@@ -45,7 +45,7 @@ export default function Home({Allblogs}) {
         })}
 
         {end==false?
-        <button className="btn #fb8c00 orange darken-1" onClick={()=>loadMore()}>Load more</button>
+        <button className="btn #0d47a1 blue darken-4" onClick={()=>loadMore()}>Load more</button>
          :<h3>You have reached end</h3>
         }
         

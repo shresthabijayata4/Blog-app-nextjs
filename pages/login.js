@@ -24,7 +24,7 @@ export default function login() {
                      <input type="email" placeholder="email" value={email} onChange={(e)=>setEmail(e.target.value)} />
                      <input type="password" placeholder="password" value={password} onChange={(e)=>setPassword(e.target.value)} />
                  </div>
-                 <button type="submit" className="btn #fb8c00 orange darken-1">Login</button>
+                 <button type="submit" className="btn #0d47a1 blue darken-4">Login</button>
                 <Link href="/signup"><a><h5>Dont Have a account</h5></a></Link>
              </form>
             

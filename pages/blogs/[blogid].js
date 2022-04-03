@@ -32,7 +32,7 @@ export default function blogpage({blog,user,allComments}) {
                 value={myComment} 
                 onChange={(e)=>setMyComment(e.target.value)}/>
             </div>
-            <button className="btn #fb8c00 orange darken-1" onClick={()=>makeCommet()}>Make comment</button>
+            <button className="btn #0d47a1 blue darken-4" onClick={()=>makeCommet()}>Make comment</button>
             </>
             :<h3>please login to make comments</h3>
             }
@@ -51,7 +51,7 @@ export default function blogpage({blog,user,allComments}) {
                     font-weight:500;
                 }
                 body{
-                    color:orange
+                    color:blue
                 }
                 img{
                     width:100%;

@@ -71,7 +71,7 @@ export default function createblog({user}) {
             
             />
              <div className="file-field input-field">
-                <div className="btn #fb8c00 orange darken-1">
+                <div className="btn #0d47a1 blue darken-4">
                     <span>File</span>
                     <input type="file"  onChange={(e)=>setImage(e.target.files[0])} />
                 </div>
@@ -79,7 +79,7 @@ export default function createblog({user}) {
                     <input className="file-path validate" type="text" />
                 </div>
              </div>
-             <button className="btn #fb8c00 orange darken-1" onClick={()=>SubmitDetails()}>Submit Post</button>
+             <button className="btn #0d47a1 blue darken-4" onClick={()=>SubmitDetails()}>Submit Post</button>
 
              <style jsx>
                  {`
